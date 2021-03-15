@@ -21,6 +21,10 @@
   grid-area: header;
 }
 
+.navbar {
+  grid-area: Navbar;
+}
+
 .main {
   grid-area: main;
 }
