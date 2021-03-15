@@ -24,6 +24,8 @@
 
 .navbar {
   grid-area: navbar;
+  display: flex;
+  flex-direction: column;
 }
 
 .main {
