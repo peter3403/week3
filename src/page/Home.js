@@ -1,17 +1,17 @@
 import Header from "../components/Header"
-import ProductList from "../components/ProductList"
 import Footer from "../components/Footer"
+import ProductList from "../components/ProductList";
 
 function Home() {
-    return (
-      <div className="bg-color">
-          <div className="container">
-              <Header />
-              <ProductList />
-              <Footer />
-          </div>
-      </div>
-    );
-  }
-  
-  export default Home;
+  return (
+    <div className="bg-color">
+        <div className="container grid-container">
+            <Header />
+            <ProductList />
+            <Footer />
+        </div>
+    </div>
+  );
+}
+
+export default Home;
