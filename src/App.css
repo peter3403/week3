@@ -24,6 +24,7 @@
 
 .navbar {
   grid-area: navbar;
+  padding-top: 2rem;
 }
 
 .main {
