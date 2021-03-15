@@ -1,13 +1,12 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    
     "header"
     "navbar"
     "main"
     "footer";
   grid-template-rows: auto 1fr 6rem;
-  grid-template-columns: 1fr;
+  grid-template-columns: 131fr;
   min-height: 100vh;
 }
 
