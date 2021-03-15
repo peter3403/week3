@@ -22,7 +22,7 @@
 }
 
 .navbar {
-  grid-area: Navbar;
+  grid-area: navbar;
 }
 
 .main {
