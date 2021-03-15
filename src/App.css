@@ -3,7 +3,7 @@
   grid-template-areas:
     
     "header"
-    "navbar"
+   
     "main"
     "footer";
   grid-template-rows: auto 1fr 6rem;
