@@ -56,3 +56,34 @@
 .text-color-1 {
   color: #8183ff;
 }
+@media(max-width:1400px){
+  .nav_bar{
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 0;
+  }
+  .grid-container{
+    display: grid;
+    grid-template-areas:
+      "header"
+      "nav_bar"
+      "main"
+      "footer";
+    grid-template-rows: auto 2rem 1fr 6rem;
+    grid-template-columns: 1fr;
+  }
+}
+@media(max-width:991px){
+  .nav_bar{
+    display: none;
+  }
+  .grid-container{
+    display: grid;
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
