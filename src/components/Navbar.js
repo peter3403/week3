@@ -1,6 +1,6 @@
 export default function Navbar() {
     return(
-        <div className="nav_bar text-light opacity-3">
+        <div className="navbar text-light opacity-3">
             <p>Tableware</p>
             <p>Cookware</p>
             <p>Home accessories</p>
