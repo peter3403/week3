@@ -1,8 +1,9 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    "navbar"
+    
     "header"
+    "navbar"
     "main"
     "footer";
   grid-template-rows: auto 1fr 6rem;
